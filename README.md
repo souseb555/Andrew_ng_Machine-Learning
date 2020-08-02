@@ -35,23 +35,23 @@ Here we implemet the normal equation(θ =XTX−1 XT~y. ) and compute the value 
 #### Logistic Regression
 In this Programming Assignment, you will implement logistic regression and apply it to two diﬀerent datasets. 
 
-- sigmoid.m 
+- sigmoid.m :
 Here we implement a sigmoid function g(z) =g = 1./(1+exp(-z)).
 ##### Note: For a matrix, your function should perform the sigmoid function on every element
 
-- costFunction.m 
+- costFunction.m :
 Here we will compute cost and gradient for logistic regression
 
-- predict.m
+- predict.m:
  The predict function will produce “1” or “0” predictions given a dataset and a learned parameter vector θ. 
  
- - costFunctionReg.m 
+ - costFunctionReg.m :
  Here you will implement code to compute the cost function and gradient for regularized logistic regression.
  
- - plotDecisionBoundary.m 
+ - plotDecisionBoundary.m :
  To help you visualize the model learned by this classiﬁer, we have provided the function plotDecisionBoundary.m which plots the (non-linear) decision boundary that separates the positive and negative examples
  
- -  mapFeature.m
+ -  mapFeature.m:
  One way to ﬁt the data better is to create more features from each data point. In the provided function mapFeature.m, we will map the features into all polynomial terms of x1 and x2 up to the sixth power
 
 
@@ -59,16 +59,16 @@ Here we will compute cost and gradient for logistic regression
 #### Multi-class Classification and Neural Networks
 In this Programming Assignment, you will implement one-vs-all logistic regression and neural networks to recognize hand-written digits.
 
-- lrCostFunction.m 
+- lrCostFunction.m :
 computes the cost using theta as the parameter for regularized logistic regression and the gradient of the cost w.r.t. to the parameters.
 
-- oneVsAll.m
+- oneVsAll.m:
 ONEVSALL trains multiple logistic regression classifiers and returns all the classifiers in a matrix all_theta, where the i-th row of all_theta corresponds to the classifier for label i.
 
-- predictOneVsAll.m
+- predictOneVsAll.m:
 Predict the label for a trained one-vs-all classifier. The labels are in the range 1..K, where K = size(all_theta, 1).
 
-- predict.m
+- predict.m:
 p = PREDICT(Theta1, Theta2, X) outputs the predicted label of X given the trained weights of a neural network (Theta1, Theta2).
 
 
@@ -130,7 +130,7 @@ PROJECTDATA Computes the reduced data representation when projecting only on to 
 - recoverData.m :
 RECOVERDATA Recovers an approximation of the original data when using the projected data.
 
--findClosestCentroids.m :
+- findClosestCentroids.m :
 This function takes the data matrix X and the locations of all centroids inside centroids and should output a one-dimensional array idx that holds the index (a value in {1,...,K}, where K is total number of centroids) of the closest centroid to every training example.
 
 - computeCentroids.m :
