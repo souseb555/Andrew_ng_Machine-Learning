@@ -50,7 +50,7 @@ In this Programming Assignment, you will implement the anomaly detection algorit
 >After completing a part of the exercise, you can submit your solutions for grading by typing submit at the Octave/MATLAB command line. The submission script will prompt you for your login e-mail and submission token and ask you which ﬁles you want to submit. You can obtain a submission token from the web page for the assignment.
 
 
-##You may also refer to
+## You may also refer to
 - https://www.geeksforgeeks.org/ml 
 - https://www.youtube.com/c/AladdinPersson/videos
 - https://www.apdaga.com/2020/01/coursera-machine-learning-all-weeks-solutions
